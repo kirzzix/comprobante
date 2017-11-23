@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=DNI
+PROJECTNAME=repositorios
 
 # Active Configuration
 DEFAULTCONF=Debug

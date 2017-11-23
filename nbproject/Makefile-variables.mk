@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=dni
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/dni
+CND_ARTIFACT_NAME_Debug=repositorios
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/repositorios
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=dni.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/dni.tar
+CND_PACKAGE_NAME_Debug=repositorios.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/repositorios.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=dni
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/dni
+CND_ARTIFACT_NAME_Release=repositorios
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/repositorios
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=dni.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/dni.tar
+CND_PACKAGE_NAME_Release=repositorios.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/repositorios.tar
 #
 # include compiler specific variables
 #
