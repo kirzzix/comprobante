@@ -2,10 +2,10 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-int comprobante(int*z, int*a);
+int comprobante(int z, char p[]);
 int main() {
     int numerico;
-    int numero;
+    char numero[9];
     int control;
     do
    {
@@ -15,15 +15,15 @@ int main() {
         if (numerico == 1 || numerico == 2)
         {
         printf("Indique el numero a transformar\n");
-        scanf("%i", &numero);
+        scanf("%s", &numero);
         }
         switch(numerico)
         {
             case 1 :
-                comprobante(&numerico,&numero);
+                comprobante(numerico,numero);
                 break;
             case 2 :
-                comprobante(&numerico,&numero);
+                comprobante(numerico,numero);
                 break;
             
             case 0 :
