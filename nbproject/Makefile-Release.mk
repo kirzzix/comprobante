@@ -37,8 +37,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/comprobante.o \
 	${OBJECTDIR}/main.o \
-	${OBJECTDIR}/nbproject/prueba.o \
 	${OBJECTDIR}/nif.o \
+	${OBJECTDIR}/prueba.o \
 	${OBJECTDIR}/romanos.o
 
 
@@ -76,15 +76,15 @@ ${OBJECTDIR}/main.o: main.c
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.c
 
-${OBJECTDIR}/nbproject/prueba.o: nbproject/prueba.c
-	${MKDIR} -p ${OBJECTDIR}/nbproject
-	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/nbproject/prueba.o nbproject/prueba.c
-
 ${OBJECTDIR}/nif.o: nif.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/nif.o nif.c
+
+${OBJECTDIR}/prueba.o: prueba.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/prueba.o prueba.c
 
 ${OBJECTDIR}/romanos.o: romanos.c
 	${MKDIR} -p ${OBJECTDIR}
