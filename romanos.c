@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-int romanos(int *j){
+int romanos(int j){
 int resto;
 const char*romano [ 3000 ];
 romano[ 1 ] = "I";
@@ -41,31 +41,31 @@ romano[ 3000 ] = "MMM";
 
    printf ("El numero en romano es ");
 
-    if ( *j >= 1000 ){
-        resto = *j / 1000;
-        *j = *j - (resto * 1000);
+    if ( j >= 1000 ){
+        resto = j / 1000;
+        j = j - (resto * 1000);
         resto = resto * 1000;
         printf(romano[resto]);
     }
 
-        if (*j >= 100) 
+        if (j >= 100) 
         {
-            resto = *j / 100;
-            *j = *j - resto * 100;
+            resto = j / 100;
+            j = j - resto * 100;
             resto = resto * 100;
             printf(romano[resto]);
         }
 
         
-        if (*j >= 10) {
-            resto = *j / 10;
-            *j = *j - resto * 10;
+        if (j >= 10) {
+            resto = j / 10;
+            j = j - resto * 10;
             resto = resto * 10;
             printf(romano[resto]);
         }
         
-        if ((*j < 10) && (*j > 0)) {
-            resto = *j;
+        if ((j < 10) && (j > 0)) {
+            resto = j;
             printf(romano[resto]);
         }
 
